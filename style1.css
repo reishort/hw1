@@ -1,0 +1,32 @@
+/* 
+    COMP 333: Software Engineering
+    Reilly Short (rshort@wesleyan.edu)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fira+Sans+Extra+Condensed&display=swap');
+
+h1 {
+    font-family: 'Bungee', cursive;
+}
+
+p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+body {
+    background-color: powderblue;
+}
+
+/*
+.navbar ul {
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: pink;
+    text-align: center;
+}
+*/
+
+
