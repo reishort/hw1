@@ -1,0 +1,23 @@
+body {
+    background-color: mintcream;
+}
+
+table, td {
+    border: 1px solid gray;
+}
+
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.box {
+    flex-grow: 1;
+    flex-shrink: 1; 
+    flex-basis: 1 1 calc(25% - 10px); 
+    margin: 10 px;
+}
+
+img {
+    width: 50%; 
+}
