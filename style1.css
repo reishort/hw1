@@ -18,15 +18,43 @@ body {
     background-color: powderblue;
 }
 
-/*
+
 .navbar ul {
     list-style: none;
-    width: 500px;
     margin: 0 auto;
     padding: 0;
-    background-color: pink;
-    text-align: center;
+    overflow: hidden; 
+    background-color: #333;
+    text-align: left;
 }
-*/
 
+.navbar li {
+    width: 150 px; 
+    display: inline; 
+}
+.navbar li a{
+    color: white;
+    border: 1 px solid black; 
+    padding: 14px 16px;
+    line-height: 40 px; 
+}
 
+.navbar li a:hover{
+    background-color: lightgray;
+}
+
+.flex-container {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.box {
+    flex-grow: 1;
+    flex-shrink: 1; 
+    flex-basis: 1 1 calc(25% - 10px); 
+    margin: 5 px;
+}
+
+img {
+    width: 100%; 
+}
