@@ -1,6 +1,7 @@
 <!-- 
     COMP 333: Software Engineering
     Reilly Short (rshort@wesleyan.edu)
+    Homework 1 - Landing Page
 -->
 
 <!DOCTYPE HTML>
@@ -8,17 +9,29 @@
 <html lang="en">
 
 <head>
+    <!--
+        help with general set up of site, viewport help with mobile set-up
+    -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
 
+    <!-- 
+        title to make it searchable and large header to give title on actual site
+    -->
     <title>Rank the Tunes</title>
     <h1>Rank the Tunes</h1>
 
+    <!-- 
+        attached style sheet to style site
+    -->
     <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
+    <!--
+        this sets up basic navbar 
+    -->
     <div id="navbar" class="navbar">
     <ul>  
         <li><a href="hw1.html#About">About</a></li>
@@ -28,21 +41,32 @@
     </ul>
     </div>
 
+    <!--
+        Image within flex box so that it has ability to better flex 
+    -->
     <div class = "flex-container">
         <div class = "box">
             <img src = "https://cdn.pixabay.com/photo/2015/01/20/13/13/samsung-605439_1280.jpg" alt = "This is a picture of a phone and headphones.">
         </div>
     </div>
     
-
+    <!--
+        section necessary for homework and to establish as training exercise
+    -->
     <p>This site was designed and published as part of the COMP
         333 Software Engineering class at Wesleyan University. The described platform is not publicly
         available but rather is created as a training exercise.
     </p>
+    <!--
+        create separation between sections (line and spacing)
+    -->
     <br>
     <hr>
     <br>
 
+    <!--
+        set up first section from navbar
+    -->
     <h2 id ="About">About</h2>
     <div>
         <p>
@@ -64,6 +88,9 @@
     <hr>
     <br>
 
+    <!--
+        set up second section from navbar
+    -->
     <h2 id = "Rankings">Rankings</h2>
     <div> 
         <h4>This is where the rankings will live on this site.</h4>
@@ -73,15 +100,23 @@
             look a lot cleaner and be a more fulfilling visual experience for our users. This is just 
             to set the scene for what is to come. 
         </p>
+        <!-- 
+            use iframe to show second site associated with this hw
+        -->
         <iframe src="hw2.html" name="navframe"></iframe>
     </div>
     <br>
     <br>
     <hr>
     <br>
-
+    <!--
+        set up third section from navbar
+    -->
     <h2 id = "Reviews">Reviews</h2>
     <div>
+        <!--
+            use class review to stylize these reviews differently in css file
+        -->
         <div class = "review">
             <h4>Sarah B. - 4.97/5.00</h4> 
             <p>"I've tried a lot of apps with a similar purpose but this is by far the best. Easy to use, 
@@ -110,14 +145,19 @@
             </p>
         </div>
         <br>
-
+        <!--
+            hyperlink second site associated with this hw here
+        -->
         <p>For more reviews, check out <a href="hw2.html">our secondary page</a>.</p>
     </div>
     <br>
     <hr> 
     <br>
-
+    <!--
+        set up fourth section from navbar
+    -->
     <h2 id ="Download">Download</h2>
+    <!-- Image inserted using flex box -->
     <div class = "flex-container">
         <div class = "box">
             <img src = "https://cdn.pixabay.com/photo/2014/03/22/22/17/phone-292994_1280.jpg" alt = "This is a picture of a phone and headphones.">
@@ -128,6 +168,7 @@
         the support. We will be keeping this site as up to date as possible. 
     </h4>
     <br>
+    <!--create a form that gets name and email from user -->
     <div class = "form">
         <form>
             <label for="name">Name:</label>
@@ -138,7 +179,7 @@
         </form>
     </div>
     <br>
-
+    <!--insert another image -->
     <div class = "flex-container">
         <div class = "box">
             <img src = "https://cdn.pixabay.com/photo/2022/01/07/01/22/girl-6920627_1280.jpg" alt =  "This is a picture of a girl with a phone looking surprised.">
@@ -146,7 +187,7 @@
     </div>
 
     <hr>
-
+    <!-- create footer of sorts using class bottom -->
     <div class = "bottom">
         <h3>Thank you for visiting our site! </h3>
         <p>For more information, feel free to reach out! We cannot wait to cultivate an amazing 
@@ -155,6 +196,7 @@
         - Reilly Short
         <br>
         <br>
+        <!-- hyperlinked this site and secondary site -->
         Main site: <a href="hw1.html">here</a> <br>
         Secondary site: <a href="hw2.html">here</a>
         </p>

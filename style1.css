@@ -1,24 +1,29 @@
 /* 
     COMP 333: Software Engineering
     Reilly Short (rshort@wesleyan.edu)
+    Homework 1 - Landing Page
 */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fira+Sans+Extra+Condensed&display=swap');
 
+/* changing font of all h1 text to second imported font */
 h1 {
     font-family: 'Bungee', cursive;
 }
 
+/* changing font of all p text to first imported font */
 p {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
+/* set background color for site */
 body {
     background-color: powderblue;
 }
 
-
+/* next 3 are styling for navbar (color, list, size, etc.) */
 .navbar ul {
     list-style: none;
     margin: 0 auto;
@@ -39,15 +44,18 @@ body {
     line-height: 40 px; 
 }
 
+/* changes color when hovering over cell of navbar */
 .navbar li a:hover{
     background-color: lightgray;
 }
 
+/* set up flex-container */
 .flex-container {
     display: flex; 
     flex-wrap: wrap; 
 }
 
+/* set box that image is in to adjust to window size */
 .box {
     flex-grow: 1;
     flex-shrink: 1; 
@@ -55,16 +63,19 @@ body {
     margin: 5 px;
 }
 
+/* image width set to 100% */
 img {
     width: 100%; 
 }
 
+/* set iframe size and border style */
 iframe {
     width:100%;
     height:100%;
     border: dotted;
 }
 
+/* styling for form */ 
 .form {
     color: black; 
     background-color: white;
@@ -72,6 +83,7 @@ iframe {
     border: 2px;
 }
 
+/* changes style of footer section so it stands out */
 .bottom {
     color: white;
     background-color: #333;
@@ -79,6 +91,7 @@ iframe {
     border: 3px;
 }
 
+/*changes style of review so they are emphasized */
 .review {
     background-color: navy;
     color: white; 
