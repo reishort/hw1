@@ -78,3 +78,10 @@ iframe {
     padding: 20px; 
     border: 3px;
 }
+
+.review {
+    background-color: navy;
+    color: white; 
+    padding: 5px;
+    border: 1px; 
+}
