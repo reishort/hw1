@@ -64,3 +64,17 @@ iframe {
     height:100%;
     border: dotted;
 }
+
+.form {
+    color: black; 
+    background-color: white;
+    padding: 10px;
+    border: 2px;
+}
+
+.bottom {
+    color: white;
+    background-color: #333;
+    padding: 20px; 
+    border: 3px;
+}
